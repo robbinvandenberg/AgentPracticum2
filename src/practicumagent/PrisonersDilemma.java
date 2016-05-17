@@ -6,7 +6,7 @@ package practicumagent;
 
 //import jade.core.Agent;
 
-public class FifteenStack  {
+public class PrisonersDilemma  {
     private int firstStack = 3;
     private int secondStack = 5;
     private int thirdStack = 7;
@@ -27,7 +27,7 @@ public class FifteenStack  {
         return "";
     }
 
-    public static FifteenStack fromString(String s) {
-        return new FifteenStack();
+    public static PrisonersDilemma fromString(String s) {
+        return new PrisonersDilemma();
     }
 }
